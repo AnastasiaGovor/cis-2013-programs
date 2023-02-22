@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #10e8ab;
+}
+
+#content {
+    width: 800px;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background: #e6b3eb;
+    border: 5px solid #dd68ea;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	color: rgb(21, 7, 66);
+	font-weight: bold;
+	text-align: center;
+}
+
+label {
+    display: block;
+    width: 40em;
+    text-align: right;
+    padding-right: 1em;
+    float: left;
+}
+
+input {
+    display: block;
+    float: left;
+    width: 75px;
+}
+
+#futureValue {
+    color: #000000;
+}
+
+br {
+    clear: left;
+}
