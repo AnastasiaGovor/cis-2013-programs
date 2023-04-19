@@ -18,6 +18,7 @@ var passwordCheckOld = function ()
     {
         stringOutput = "Sorry, but your password does not include 8 characters, please change your password";
     $("password").value = "";
+        //checks if the user's password has 8 characters//
     }
     else
     {
@@ -26,11 +27,11 @@ var passwordCheckOld = function ()
              if(stringPassword === arrayBadPasswords[a])
              {
                  stringOutput = "Your password is in a list of bad passwords";
-                 break;
+                 break; //look if the password matches with a password frm the bad list, if yes, exit the loop//
              }
               else
               {
-                stringOutput = "Your password is good";
+                stringOutput = "Your password is good"; //output if the password didn't match with passwords in a bad list//
               }
         }
     }
